@@ -1,3 +1,8 @@
 from django.db import models
 
-class List(models.Model);
+class Movies(models.Model):
+    name = models.CharField(max_length=30)
+    review = models.CharField(max_length=30)
+
+  
+   
