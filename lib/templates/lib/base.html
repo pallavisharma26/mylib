@@ -13,14 +13,14 @@
             <!-- image -->
            
                 <div class="navbar">
-                        <a href="#home">Home</a>
+                        <a href="{% url 'home_page' %}">Home</a>
                         
                         <div class="dropdown">
                           <button class="dropbtn">Movies 
                             <i class="fa fa-caret-down"></i>
                           </button>
                           <div class="dropdown-content">
-                                <a href="#">Excellent</a>
+                                <a href="{% url 'movie_page' %}">Excellent</a>
                                 <a href="#">Good</a>
                                 <a href="#">Average</a>  
                             </div> 
@@ -30,7 +30,7 @@
                             <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content">
-                                <a href="#">Excellent</a>
+                                <a href="{% url 'music_page' %}">Excellent</a>
                                 <a href="#">Good</a>
                                 <a href="#">Average</a>  
                             </div> 
@@ -40,7 +40,7 @@
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content">
-                                    <a href="#">Excellent</a>
+                                    <a href="{% url 'book_page' %}">Excellent</a>
                                     <a href="#">Good</a>
                                     <a href="#">Average</a>  
                                 
@@ -51,7 +51,7 @@
                             <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content">
-                                <a href="#">Official</a>
+                                <a href="{% url 'picture_page' %}">Official</a>
                                 <a href="#">Personal</a>
                                 <a href="#">Others</a>  
                             </div> 
