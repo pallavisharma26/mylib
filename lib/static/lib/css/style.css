@@ -2,9 +2,9 @@
     padding:0;
     margin:0;
 }
-.wrapper
-{
-  background: url(music.jpeg) no-repeat;
+
+  .cover {
+  background: url('/static/lib/images/music.jpeg');
   background-size: cover;
   height: 100vh;  
 
@@ -37,6 +37,7 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
@@ -70,7 +71,7 @@
   }
   
 
-.wrapper .center{
+.cover .center{
     position:absolute;
     top: 50%;
     left: 55%;
