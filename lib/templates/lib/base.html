@@ -20,9 +20,9 @@
                             <i class="fa fa-caret-down"></i>
                           </button>
                           <div class="dropdown-content">
-                                <a href="{% url 'movie_page' %}">Excellent</a>
-                                <a href="#">Good</a>
-                                <a href="#">Average</a>  
+                                <a href="{% url 'movie_page'  rating="excellent" %}">Excellent</a>
+                                <a href="{% url 'movie_page'  rating="good" %}">Good</a>
+                                <a href="{% url 'movie_page'  rating="average" %}">Average</a>  
                             </div> 
                         </div> 
                         <div class ="dropdown">
@@ -30,9 +30,9 @@
                             <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content">
-                                <a href="{% url 'music_page' %}">Excellent</a>
-                                <a href="#">Good</a>
-                                <a href="#">Average</a>  
+                                <a href="{% url 'music_page' rating="excellent" %}">Excellent</a>
+                                <a href="{% url 'music_page' rating="good" %}">Good</a>
+                                <a href="{% url 'music_page' rating="average" %}">Average</a>  
                             </div> 
                         </div>
                         <div class="dropdown">
@@ -40,9 +40,9 @@
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content">
-                                    <a href="{% url 'book_page' %}">Excellent</a>
-                                    <a href="#">Good</a>
-                                    <a href="#">Average</a>  
+                                    <a href="{% url 'book_page' rating="excellent" %}">Excellent</a>
+                                    <a href="{% url 'book_page' rating="good" %}">Good</a>
+                                    <a href="{% url 'book_page' rating="average" %}">Average</a>  
                                 
                             </div>
                         </div> 
@@ -51,9 +51,9 @@
                             <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content">
-                                <a href="{% url 'picture_page' %}">Official</a>
-                                <a href="#">Personal</a>
-                                <a href="#">Others</a>  
+                                <a href="{% url 'picture_page' type="official" %}">Official</a>
+                                <a href="{% url 'picture_page' type="personal" %}">Personal</a>
+                                <a href="{% url 'picture_page' type="others" %}">Others</a>  
                             </div> 
                         </div> 
                 </div>
