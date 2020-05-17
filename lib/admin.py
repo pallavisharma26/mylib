@@ -1,5 +1,9 @@
 from django.contrib import admin
 
-from .models import Movies
+from .models import Movie, Genre, Actor
 
-admin.site.register(Movies)
+admin.site.register(Movie)
+admin.site.register(Genre)
+admin.site.register(Actor)
+
+
